@@ -171,11 +171,6 @@ public class Maf {
         return this.additionalProperties.keySet();
     }
 
-    @JsonIgnore
-    public Collection<String> getAdditionalProperties() {
-        return this.additionalProperties.keySet();
-    }
-
     /**
      * Method to merge two lists of mutation entries.
      * @param maf1 Input 1
